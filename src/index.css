@@ -13,7 +13,3 @@
     @apply cursor-pointer;
   }
 }
-
-.linear-grade {
-  background-image: linear-gradient(45deg, black 0%, #2d2d2A 52%, black 90%);
-}
