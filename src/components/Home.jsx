@@ -11,7 +11,7 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2>
         <div>
           {/* button  */}
-          <button className='text-white font-bold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e5dcc5] hover:border-[#e5dcc5] hover:text-[#0a192f]'>
+          <button className='rounded-full text-white font-bold group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#e5dcc5] hover:border-[#e5dcc5] hover:text-[#0a192f]'>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3' />
