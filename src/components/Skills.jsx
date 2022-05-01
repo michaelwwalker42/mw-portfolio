@@ -1,13 +1,13 @@
 import React from 'react'
 
-import JavaScript from '../assets/javascript.png';
-import ExpressImg from '../assets/express.png';
-import GitHub from '../assets/github.png';
-import MongoDB from '../assets/mongo.png';
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
+import JavaScript from '../assets/logos/javascript.png';
+import ExpressImg from '../assets/logos/express.png';
+import GitHub from '../assets/logos/github.png';
+import MongoDB from '../assets/logos/mongo.png';
+import HTML from '../assets/logos/html.png';
+import CSS from '../assets/logos/css.png';
+import ReactImg from '../assets/logos/react.png';
+import Node from '../assets/logos/node.png';
 
 const Skills = () => {
   return (
