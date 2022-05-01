@@ -60,12 +60,12 @@ const Work = () => {
                 </span>
                 <div className='pt-8 text-center'>
                   <a href={project.deployment}>
-                    <button className='w-[64px] shadow-sm shadow-[#050D19] hover:scale-110 duration-200 text-center rounded-lg  py-2 m-2 bg-[#e5dcc5] text-[#0d1d34]'>
+                    <button className='w-[64px] shadow-sm shadow-[#050D19] hover:scale-110 duration-200 text-center rounded-lg  py-2 m-2 bg-[#e5dcc5] text-[#0d1d34] font-bold'>
                       Demo
                     </button>
                   </a>
                   <a href={project.repo}>
-                    <button className='w-[64px] shadow-sm shadow-[#050D19] hover:scale-110 duration-200 text-center rounded-lg  py-2 m-2 bg-[#e5dcc5] text-[#0d1d34]'>
+                    <button className='w-[64px] shadow-sm shadow-[#050D19] hover:scale-110 duration-200 text-center rounded-lg  py-2 m-2 bg-[#e5dcc5] text-[#0d1d34] font-bold'>
                       Code
                     </button>
                   </a>
