@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-portfolio/static/css/main.b15d0b4b.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.dbfd236c.js",
+    "static/media/employee-tracker-demo.gif": "/react-tailwind-portfolio/static/media/employee-tracker-demo.e56da40a82b6887188f0.gif",
+    "static/media/rocks-ropes.png": "/react-tailwind-portfolio/static/media/rocks-ropes.6398dfbce7619d2a4a6a.png",
+    "static/media/tech-blog.png": "/react-tailwind-portfolio/static/media/tech-blog.54c0b51318f486495852.png",
+    "static/media/weather-dashboard.png": "/react-tailwind-portfolio/static/media/weather-dashboard.13e604ab011d9eeab108.png",
+    "static/media/Walker_Resume.pdf": "/react-tailwind-portfolio/static/media/Walker_Resume.35a6f08dd1a5cb1be381.pdf",
+    "static/media/song-starter.png": "/react-tailwind-portfolio/static/media/song-starter.33329af30aae307fa811.png",
+    "static/media/mw-logo.png": "/react-tailwind-portfolio/static/media/mw-logo.6233a07ab563ecf839e3.png",
+    "static/media/react.png": "/react-tailwind-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/react-tailwind-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/react-tailwind-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/express.png": "/react-tailwind-portfolio/static/media/express.04e4743fbd704db71ed7.png",
+    "static/media/github.png": "/react-tailwind-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/react-tailwind-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/react-tailwind-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/react-tailwind-portfolio/index.html",
+    "main.b15d0b4b.css.map": "/react-tailwind-portfolio/static/css/main.b15d0b4b.css.map",
+    "main.dbfd236c.js.map": "/react-tailwind-portfolio/static/js/main.dbfd236c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b15d0b4b.css",
+    "static/js/main.dbfd236c.js"
+  ]
+}
