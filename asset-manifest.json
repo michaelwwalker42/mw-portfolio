@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tailwind-portfolio/static/css/main.b15d0b4b.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.dbfd236c.js",
+    "main.css": "/react-tailwind-portfolio/static/css/main.35a20a39.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.aafa2e36.js",
     "static/media/employee-tracker-demo.gif": "/react-tailwind-portfolio/static/media/employee-tracker-demo.e56da40a82b6887188f0.gif",
     "static/media/rocks-ropes.png": "/react-tailwind-portfolio/static/media/rocks-ropes.6398dfbce7619d2a4a6a.png",
     "static/media/tech-blog.png": "/react-tailwind-portfolio/static/media/tech-blog.54c0b51318f486495852.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/react-tailwind-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tailwind-portfolio/index.html",
-    "main.b15d0b4b.css.map": "/react-tailwind-portfolio/static/css/main.b15d0b4b.css.map",
-    "main.dbfd236c.js.map": "/react-tailwind-portfolio/static/js/main.dbfd236c.js.map"
+    "main.35a20a39.css.map": "/react-tailwind-portfolio/static/css/main.35a20a39.css.map",
+    "main.aafa2e36.js.map": "/react-tailwind-portfolio/static/js/main.aafa2e36.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15d0b4b.css",
-    "static/js/main.dbfd236c.js"
+    "static/css/main.35a20a39.css",
+    "static/js/main.aafa2e36.js"
   ]
 }
