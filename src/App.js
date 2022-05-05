@@ -12,7 +12,8 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Michael Walker - Portfolio</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Portfolio website for web developer, Michael Walker."/>
+        <link rel="canonical" href="https://michaelwwalker42.github.io/react-tailwind-portfolio/" />
       </Helmet>
       <Navbar />
       <Home />
