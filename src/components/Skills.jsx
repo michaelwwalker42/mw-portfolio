@@ -11,8 +11,6 @@ import Node from '../assets/logos/node.png';
 import resume from '../assets/documents/Walker_Resume.pdf'
 import { BsDownload } from "react-icons/bs";
 
-
-
 const Skills = () => {
   const skills = [
     {
@@ -74,7 +72,7 @@ const Skills = () => {
   ]
 
   return (
-    <div name='kills' className='w-full h-screen background-blue text-gray-300'>
+    <div name='Skills' className='w-full h-screen background-blue text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
