@@ -16,52 +16,65 @@ import { BsDownload } from "react-icons/bs";
 const Skills = () => {
   const skills = [
     {
+      id: '1',
       description: 'HTML',
       image: HTML,
       alt: 'HTML icon',
       imageStyle: 'w-20 mx-auto'
     },
     {
+      id: '2',
       description: 'CSS',
       image: CSS,
       alt: 'CSS icon',
       imageStyle: 'w-20 mx-auto'
     },
     {
+      id: '3',
       description: 'JavaScript',
       image: JavaScript,
       alt: 'JavaScript icon',
       imageStyle: 'w-20 mx-auto'
-    }, {
+    },
+    {
+      id: '4',
       description: 'GitHub',
       image: GitHub,
       alt: 'GitHub icon',
       imageStyle: 'w-20 mx-auto'
-    }, {
+    },
+    {
+      id: '5',
       description: 'MongoDB',
       image: MongoDB,
       alt: 'MongoDB icon',
       imageStyle: 'w-20 mx-auto'
-    }, {
+    },
+    {
+      id: '6',
       description: 'Express',
       image: ExpressImg,
       alt: 'Express icon',
       imageStyle: 'w-[149px] mx-auto'
-    }, {
+    },
+    {
+      id: '7',
       description: 'React',
       image: ReactImg,
       alt: 'React icon',
       imageStyle: 'w-20 mx-auto'
-    }, {
+    },
+    {
+      id: '8',
       description: 'Node Js',
       image: Node,
       alt: 'Node icon',
       imageStyle: 'w-20 mx-auto'
-    },
+    }
   ]
 
   return (
-    <div name='skills' className='w-full h-screen background-blue text-gray-300'>
+    <div name='kills' className='w-full h-screen background-blue text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -72,7 +85,8 @@ const Skills = () => {
 
           {/* Skills */}
           {skills.map(skill => (
-            <div className='shadow-md shadow-[#050D19] hover:scale-110 duration-500'>
+            <div className='shadow-md shadow-[#050D19] hover:scale-110 duration-500'
+              key={skill.id}>
               <img className={skill.imageStyle} src={skill.image} alt={skill.alt} />
               <p className='my-4'>{skill.description}</p>
             </div>

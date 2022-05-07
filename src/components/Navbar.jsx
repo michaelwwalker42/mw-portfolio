@@ -8,48 +8,32 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import resume from '../assets/documents/Walker_Resume.pdf'
-import Logo from '../assets/logos/mw-logo.png'
+import resume from '../assets/documents/Walker_Resume.pdf';
+import Logo from '../assets/logos/mw-logo.png';
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
-  const handleClick = () => setNav(!nav)
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
+  const menuItems = ['Home', 'About', 'Skills', 'Work', 'Contact'];
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 background-blue'>
       <div className='cursor-pointer'>
-        <Link to='home' smooth={true} duration={500}>
+        <Link to='Home' smooth={true} duration={500}>
           <img src={Logo} alt='MW Logo' style={{ width: '80px' }} />
         </Link>
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li className='hover:scale-105'>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className='hover:scale-105'>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='hover:scale-105'>
-          <Link to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='hover:scale-105'>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='hover:scale-105'>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+        {menuItems.map((item, index) => (
+          <li className='hover:scale-105 hover:text-[#e5dcc5]' key={index}>
+            <Link to={item} smooth={true} duration={500}>
+              {item}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       {/* Hamburger */}
@@ -58,32 +42,14 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu  */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen transparent-blue flex flex-col justify-center items-center'}>
+        {menuItems.map((item, index) => (
+          <li className='text-4xl py-6 hover:scale-105 hover:text-[#e5dcc5]' key={index}>
+            <Link onClick={handleClick} to={item} smooth={true} duration={500}>
+              {item}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       {/* Social icons  */}
