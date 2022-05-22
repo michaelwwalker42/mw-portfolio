@@ -1,5 +1,6 @@
 import Helmet from "react-helmet";
 import About from "./components/About";
+import BackArrow from "./components/BackArrow";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ function App() {
         <link rel="canonical" href="https://michaelwwalker42.github.io/react-tailwind-portfolio/" />
       </Helmet>
       <Navbar />
+      <BackArrow />
       <Home />
       <About />
       <Skills />

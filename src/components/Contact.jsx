@@ -1,7 +1,4 @@
 import React from 'react'
-import { HiArrowNarrowLeft } from 'react-icons/hi';
-import { Link } from 'react-scroll';
-
 
 const Contact = () => {
   const contactLinks = [
@@ -50,14 +47,6 @@ const Contact = () => {
         <textarea className='rounded-sm bg-[#dbe3fc] p-2' name="message" rows="10" placeholder='Message'></textarea>
         <button className='rounded-full font-bold text-white border-2 hover:bg-[#e5dcc5] hover:border-[#e5dcc5] px-4 py-3 my-8 mx-auto flex items-center hover:text-[#0a192f]'>Message Me</button>
       </form>
-
-      {/* back arrow  */}
-      <Link to='Home' smooth={true} duration={500}>
-        <span className='cursor-pointer hover:rotate-90 duration-300 fixed bottom-5 right-5 text-[#e5dcc5] '>
-          <HiArrowNarrowLeft size={25} />
-        </span>
-      </Link>
-
     </div>
   )
 }
