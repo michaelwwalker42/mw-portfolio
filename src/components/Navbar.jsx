@@ -8,7 +8,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import resume from '../assets/documents/Walker_Resume.pdf';
+import resume from '../assets/documents/Resume.pdf';
 import Logo from '../assets/logos/mw-logo.png';
 
 const Navbar = () => {

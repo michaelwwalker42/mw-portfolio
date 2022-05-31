@@ -8,7 +8,7 @@ import HTML from '../assets/logos/html.png';
 import CSS from '../assets/logos/css.png';
 import ReactImg from '../assets/logos/react.png';
 import Node from '../assets/logos/node.png';
-import resume from '../assets/documents/Walker_Resume.pdf'
+import resume from '../assets/documents/Resume.pdf';
 import { BsDownload } from "react-icons/bs";
 
 const Skills = () => {
