@@ -20,7 +20,7 @@ const Contact = () => {
   ]
 
   return (
-    <div name='Contact' className='w-full h-screen background-blue flex justify-center items-center p-4'>
+    <div name='Contact' className='w-full flex justify-center items-center p-4 my-28'>
       <form method='POST' action="https://getform.io/f/fe4ee176-7f9c-4c7f-ba1c-b712a9805f15" className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <h2
@@ -45,7 +45,7 @@ const Contact = () => {
         <input className='rounded-sm bg-[#dbe3fc] p-2' type="text" placeholder='Name' name='name' />
         <input className='rounded-sm my-4 p-2 bg-[#dbe3fc]' type="email" placeholder='Email' name='email' />
         <textarea className='rounded-sm bg-[#dbe3fc] p-2' name="message" rows="10" placeholder='Message'></textarea>
-        <button className='rounded-full font-bold text-white border-2 hover:bg-[#e5dcc5] hover:border-[#e5dcc5] px-4 py-3 my-8 mx-auto flex items-center hover:text-[#0a192f]'>Message Me</button>
+        <button className='rounded-sm font-bold text-white border-2 hover:bg-[#e5dcc5] hover:border-[#e5dcc5] px-4 py-3 my-8 mx-auto flex items-center hover:text-[#0a192f]'>Message Me</button>
       </form>
     </div>
   )

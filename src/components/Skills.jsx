@@ -72,7 +72,7 @@ const Skills = () => {
   ]
 
   return (
-    <div name='Skills' className='w-full h-screen background-blue text-gray-300'>
+    <div name='Skills' className='w-full h-screen  text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
@@ -91,7 +91,7 @@ const Skills = () => {
           ))}
 
           {/* Resume */}
-          <button className='rounded-full w-[160px] text-white font-bold group border-2 px-6 py-2 my-2 flex  items-center hover:bg-[#e5dcc5] hover:border-[#e5dcc5] hover:text-[#0a192f]'>
+          <button className='rounded-sm w-[160px] text-white font-bold group border-2 px-6 py-2 my-2 flex  items-center hover:bg-[#e5dcc5] hover:border-[#e5dcc5] hover:text-[#0a192f]'>
             Resume
             <span className='px-3 cursor-pointer hover:text-[#0a192f]'>
               <a href={resume} download>

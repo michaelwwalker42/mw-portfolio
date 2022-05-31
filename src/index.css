@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600;700;800&display=swap');
+
 
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Spectral];
+    @apply background-blue;
   }
 
   li {
@@ -37,5 +39,5 @@
 }
 
 .transparent-blue {
-  background-color: rgba(13, 29, 52, 0.95);
+  background-color: rgba(0, 0, 0, 0.95);
 }
