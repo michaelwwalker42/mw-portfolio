@@ -4,7 +4,7 @@ const Contact = () => {
   const contactLinks = [
     {
       id: 1,
-      name: 'Email',
+      name: 'michaelwwalker42@gmail.com',
       link: 'mailto:michaelwwalker42@gmail.com'
     },
     {
