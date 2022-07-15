@@ -3,7 +3,7 @@ import React from 'react'
 import rocks from '../assets/project-images/rocks-ropes.png';
 import song from '../assets/project-images/song-starter.png'
 import tech from '../assets/project-images/tech-blog.png'
-import weather from '../assets/project-images/weather-dashboard.png'
+import weather from '../assets/project-images/weather-dashboard-demo.gif'
 import employee from '../assets/project-images/employee-tracker-demo.gif'
 
 const projects = [
