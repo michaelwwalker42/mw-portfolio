@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mw-portfolio/static/css/main.8cf90de5.css",
-    "main.js": "/mw-portfolio/static/js/main.2d6dafa1.js",
+    "main.js": "/mw-portfolio/static/js/main.7e89c46f.js",
     "static/media/employee-tracker-demo.gif": "/mw-portfolio/static/media/employee-tracker-demo.e56da40a82b6887188f0.gif",
+    "static/media/weather-dashboard-demo.gif": "/mw-portfolio/static/media/weather-dashboard-demo.da8e68092f76b4fa3688.gif",
     "static/media/rocks-ropes.png": "/mw-portfolio/static/media/rocks-ropes.6398dfbce7619d2a4a6a.png",
     "static/media/tech-blog.png": "/mw-portfolio/static/media/tech-blog.54c0b51318f486495852.png",
-    "static/media/weather-dashboard.png": "/mw-portfolio/static/media/weather-dashboard.13e604ab011d9eeab108.png",
     "static/media/song-starter.png": "/mw-portfolio/static/media/song-starter.33329af30aae307fa811.png",
     "static/media/mw-logo.png": "/mw-portfolio/static/media/mw-logo.6233a07ab563ecf839e3.png",
     "static/media/Resume.pdf": "/mw-portfolio/static/media/Resume.92d1f0372aa5654d25d6.pdf",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/mw-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/mw-portfolio/index.html",
     "main.8cf90de5.css.map": "/mw-portfolio/static/css/main.8cf90de5.css.map",
-    "main.2d6dafa1.js.map": "/mw-portfolio/static/js/main.2d6dafa1.js.map"
+    "main.7e89c46f.js.map": "/mw-portfolio/static/js/main.7e89c46f.js.map"
   },
   "entrypoints": [
     "static/css/main.8cf90de5.css",
-    "static/js/main.2d6dafa1.js"
+    "static/js/main.7e89c46f.js"
   ]
 }
