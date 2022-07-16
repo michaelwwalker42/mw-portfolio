@@ -12,14 +12,14 @@ const projects = [
     image: rocks,
     repo: 'https://github.com/dmknapp2385/rocks-and-ropes',
     demo: 'https://rocks-and-ropes.herokuapp.com/',
-    description: 'MERN Stack Landing Page',
+    description: 'Rocks and Ropes is an application designed to help rock gym members and visitors train, workout, and navigate the rock gym. Technologies: React, Express, MongoDb, GraphQL, React Router'
   },
   {
     id: 2,
     image: song,
     repo: 'https://github.com/michaelwwalker42/Song-Starter-3000',
     demo: 'https://song-starter-3000.herokuapp.com/',
-    description: 'Chord Progression Generator (Full Stack)'
+    description: 'This application is a song writing tool that creates chord progressions, will play samples of the chords, and allows users to save their favorite progressions. Technologies: Handlebars, Express, MySQL2, Sequelize, Bulma, Tone.js, Tonal.js'
 
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     image: tech,
     repo: 'https://github.com/michaelwwalker42/tech-blog',
     demo: 'https://walker-tech-blog.herokuapp.com/',
-    description: 'CMS Style Blog'
+    description: 'A CMS-style blog site , where developers can publish their blog posts and comment on other developers’ posts as well. The app uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.'
   },
 
   {
@@ -35,14 +35,14 @@ const projects = [
     image: employee,
     repo: 'https://github.com/michaelwwalker42/employee-tracker',
     demo: 'https://drive.google.com/file/d/1hvM58v_DSKzGdMf5rnexe2q42OnI2uEw/view',
-    description: 'Command Line CMS'
+    description: "A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL."
   },
   {
     id: 5,
     image: weather,
     repo: 'https://github.com/michaelwwalker42/weather-dashboard',
     demo: 'https://michaelwwalker42.github.io/weather-dashboard/',
-    description: 'Weather App'
+    description: 'A weather dashboard that uses the OpenWeather One Call API to retrieve weather data and features dynamically updated HTML and CSS using vanilla JavaScript.'
   }
 ]
 
@@ -63,9 +63,9 @@ const Work = () => {
 
               {/* Hover effects */}
               <div className='opacity-0 group-hover:opacity-100'>
-                <span className='text-xl font-bold text-shadow tracking-wider'>
+                <p className='text-sm text-shadow p-1 tracking-wider'>
                   {project.description}
-                </span>
+                </p>
                 <div className='pt-8 text-center'>
                   <a href={project.demo}>
                     <button className='w-[64px] shadow-sm shadow-[#050D19] hover:scale-110 duration-200 text-center rounded-lg  py-2 m-2 bg-[#e5dcc5] text-[#0d1d34] font-bold'>
