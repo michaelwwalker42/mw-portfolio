@@ -15,13 +15,13 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-  const menuItems = ['Home', 'About', 'Skills', 'Work', 'Contact'];
+  const menuItems = ['Home', 'Work', 'Skills', 'Contact'];
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 background-blue z-10'>
       <div className='cursor-pointer'>
         <Link to='Home' smooth={true} duration={500}>
-          <img src={Logo} alt='MW Logo' style={{ width: '80px' }} className='rounded-full' />
+          <img src={Logo} alt='MW Logo' style={{ width: '75px' }} className='rounded-full' />
         </Link>
       </div>
 

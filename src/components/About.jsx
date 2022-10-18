@@ -15,7 +15,7 @@ const About = () => {
             <p>Hi. I'm Michael, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>I am an outcome-driven web development specialist with a Full Stack Web Developer Certificate from the University of Arizona. I live in Arizona, and previously lived in northern Utah. I have a passion for learning new technologies and turning ideas into creations.</p>
+            <p>I am an outcome-driven web development specialist with a Full Stack Web Developer Certificate from the University of Arizona. I have a passion for learning new technologies and turning ideas into creations.</p>
           </div>
         </div>
       </div>

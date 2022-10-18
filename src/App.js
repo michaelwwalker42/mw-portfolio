@@ -1,5 +1,4 @@
 import Helmet from "react-helmet";
-import About from "./components/About";
 import BackArrow from "./components/BackArrow";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -20,9 +19,8 @@ function App() {
       <Navbar />
       <BackArrow />
       <Home />
-      <About />
-      <Skills />
       <Work />
+      <Skills />
       <Contact />
     </div>
   );
